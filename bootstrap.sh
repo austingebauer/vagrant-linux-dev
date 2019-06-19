@@ -59,7 +59,6 @@ install_nginx() {
 
     # Install nginx source package for building modules
     wget http://nginx.org/download/nginx-1.16.0.tar.gz
-    tar xzvf nginx-1.16.0.tar.gz
 }
 
 #
