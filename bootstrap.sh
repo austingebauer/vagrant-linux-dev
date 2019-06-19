@@ -15,9 +15,9 @@ main() {
 install_dev_tools() {
     # Install packages available in apt-get
     apt-get install -y \
+        git \
         linux-kernel-headers \
-        build-essential \
-        git
+        build-essential
 
     # Install go1.12.6
     wget https://dl.google.com/go/go1.12.6.linux-amd64.tar.gz
