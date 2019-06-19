@@ -20,9 +20,9 @@ install_dev_tools() {
         git
 
     # Install go1.12.6
-    # wget https://dl.google.com/go/go1.12.6.linux-amd64.tar.gz
-    # sudo tar xzvf go1.12.6.linux-amd64.tar.gz -C /usr/local
-    # echo "PATH=${PATH}:/usr/local/go/bin" >> ${HOME}/.bashrc
+    wget https://dl.google.com/go/go1.12.6.linux-amd64.tar.gz
+    sudo tar xzvf go1.12.6.linux-amd64.tar.gz -C /usr/local
+    echo "PATH=${PATH}:/usr/local/go/bin" >> /home/vagrant/.bashrc
 }
 
 #
