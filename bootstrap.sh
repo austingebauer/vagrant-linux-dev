@@ -16,6 +16,7 @@ install_dev_tools() {
     # Install packages available in apt-get
     apt-get install -y \
         git \
+        tree \
         linux-kernel-headers \
         build-essential
 
@@ -34,9 +35,7 @@ install_nginx() {
         gnupg2 \
         ca-certificates \
         lsb-release \
-        libpcre3 \
         libpcre3-dev \
-        zlib1g \
         zlib1g-dev \
         libssl-dev
 
@@ -58,7 +57,7 @@ install_nginx() {
     sudo chmod -R uga+r /var/log/nginx
 
     # Install nginx source package for building modules
-    wget http://nginx.org/download/nginx-1.16.0.tar.gz
+    # wget http://nginx.org/download/nginx-1.16.0.tar.gz
 }
 
 #
