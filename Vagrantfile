@@ -28,7 +28,7 @@ Vagrant.configure("2") do |config|
   # the path on the host to the actual folder. The second argument is
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
-  config.vm.synced_folder "/Users/gebauer/Desktop/nginx", "/home/vagrant/nginx", owner: "vagrant", group: "vagrant"
+  config.vm.synced_folder "/Users/gebauer/Workspace/nginx", "/home/vagrant/nginx", owner: "vagrant", group: "vagrant"
 
   # Create a forwarded port mapping which allows access to a specific port
   # within the machine from a port on the host machine. In the example below,
